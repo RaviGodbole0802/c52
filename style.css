@@ -1,0 +1,65 @@
+
+    h1{
+        color:rgb(30, 255, 244)
+
+    }
+    
+
+    .header {
+        background-color:chocolate;
+display : flex;
+justify-content: space-between;
+
+    }
+
+    h1{
+        border: solid;
+        margin-left: 60px ;
+        padding:30px;
+    }
+
+  .grid{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+  }
+  
+  .footer{
+      display : flex;
+      justify-content: flex-end;
+      background-color: rgb(255, 0, 255);
+  }
+
+  body{
+      background-color: rgb(128,36,150);
+  }
+
+  .menu{
+      margin-right:  60px; ;
+      padding-top:30px ;
+     
+     
+  }
+  .menu a{
+      padding: 30px;
+
+  }
+
+  .item{
+      position:relative;
+  }
+  .item p{
+      position:absolute;
+      top:50%;
+      left:50%;
+      color:rgb(237, 243, 243);
+      transform:translate(-50%,-50%);
+opacity:0;
+
+  }
+  .item:hover p{
+      opacity: 1;
+  }
+  .item:hover img{
+      opacity: 0.5;
+  }
